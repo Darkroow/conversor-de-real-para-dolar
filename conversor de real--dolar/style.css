@@ -1,0 +1,87 @@
+body {
+    text-align: center;
+    padding-top: 200px;
+    
+    font-family: monospace;
+/*     background-image: url('https://i.pinimg.com/736x/91/6c/77/916c771a2b4f87fa5cd50dc89366677a.jpg');
+    background-size: ;  Ajusta a imagem para cobrir toda a área 
+    background-position: center center;  Centraliza a imagem */ 
+    background-image: linear-gradient(to bottom, rgb(94, 235, 0), rgb(0, 255, 85));
+    background-attachment: fixed;
+    
+}
+
+
+#res {
+    background-color: rgb(81, 236, 223);
+    border-width: 2px;
+    border:solid;
+    font-size: 25px
+}
+
+.img-size {
+    width: 300px;
+    height: 250px;
+}
+
+
+container{
+    color:rgb(163, 4, 255)
+}
+
+
+div{
+    margin:20px;
+    
+}
+
+
+h1{
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+
+p{
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+}
+
+a{
+    color: crimson;
+    font-style: normal;
+    font-weight: bolder;
+    text-decoration: underline;
+    font-size: 25px;
+}
+
+a:hover{
+    background-color: black;
+    color: rgb(183, 0, 255);
+}
+
+
+input{
+    font-size:20px
+}
+
+real{
+    color: fuchsia;
+}
+
+dolar{
+    color: rgb(91, 62, 255)
+}
+
+
+
+button {
+    background-color: rgb(168, 175, 190);
+    font-size: 20px;
+}
+
+button:hover{
+    color: aliceblue;
+    background-color: blueviolet;
+}

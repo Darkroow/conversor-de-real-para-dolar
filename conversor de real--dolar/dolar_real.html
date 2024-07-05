@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Real - Dólar</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Conversor <dolar>Dolar</dolar> - <real>Real</real></h1>
+    </header>
+    <section>
+      <div id="números">
+        <p>
+          Cotação para este site é de
+          <strong style="color: rgb(255, 60, 93)">U$1,00 = R$5,56</strong>
+          <container>(3 de jul 2024 | fonte: Google)</container>
+        </p>
+        <p>
+          Digite quantos <dolar>Dólares</dolar> quer converter para
+          <real>Reais</real>:
+        </p>
+        <input type="number" name="valor" id="valor" />
+      </div>
+      <div id="button">
+        <button onclick="calcular()">calcular</button>
+      </div>
+      <div id="res"></div>
+      <a href="page1.html">Real para Dólar</a>
+
+      <div id="piorq"></div>
+
+      <script src="dolar_real.js"></script>
+    </section>
+  </body>
+</html>
